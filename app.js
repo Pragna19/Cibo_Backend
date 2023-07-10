@@ -6,7 +6,7 @@ app.use(express.json());
 
 var MongoClient = require('mongodb').MongoClient;
 
-var mongoUrl = "mongodb+srv://Pragna19:Pragna19@cluster0.xz69bmw.mongodb.net/?retryWrites=true&w=majority";
+var mongoUrl = "";
 mongoose.connect(mongoUrl,{
     useNewUrlParser:true
 }).then(()=>{console.log("connected to database");})
